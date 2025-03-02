@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.page {
+    display: flex;
+}
+.page h2 {
+    
+
+    font-family: "Big Shoulders Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+
+}
+.page p {
+    font-family: "Outfit",serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    margin-bottom:100px ;
+
+    padding-right: 90px;
+
+}
+.page .one , .two , .three {
+    padding: 50px 50px 50px 50px;
+
+    position: relative;
+    top: 90px;
+    
+    height: 500px;
+
+ 
+
+    color: white;
+    max-height: 100%;
+}
+.page .one  {
+    background-color: hsl(31, 77%, 52%);
+    margin-left:70px ;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.page .two {
+    background-color: hsl(184, 100%, 22%);
+}
+.page .three {
+    background-color: hsl(179, 100%, 13%);
+    margin-right: 70px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.page button {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 13px 35px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.page .one button {
+    color: hsl(31, 77%, 52%);
+}
+.page .two button {
+    color: hsl(184, 100%, 22%);
+}
+.page .three button {
+    color:hsl(179, 100%, 13%) ;
+}
+
+.page .one button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+.page .two button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.page .three button:hover {
+    background-color:hsl(179, 100%, 13%) ;
+    color: white;
+}
+
+
